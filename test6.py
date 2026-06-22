@@ -6,7 +6,7 @@ print(school,name)'''
 '''i = len("hello")
 print(i)'''
 
-#1.创建字符串
+'''#1.创建字符串
 name = "张三"
 age = 18
 
@@ -28,14 +28,18 @@ print(f"前五个:{s[0:5]}")
 print(f"后五个:{s[6:11]}")
 
 #6.查找
-pos = s.find("world")
-print(f"world在第{pos}位")
+pos = s.find("Hello")
+print(f"Hello在第{pos}位")
 
 #7.替换
-new_s = s.replace("world","python")
+new_s = s.replace("World","python")
 print(new_s)
 
 #8.分割
 date = "2026,6,21"
 parts= date.split(",")
-print(parts)
+print(parts)'''
+
+s = ("hello world")
+new_s = s.replace("world","python")
+print(new_s)
